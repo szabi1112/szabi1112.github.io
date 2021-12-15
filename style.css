@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+  }
+  .wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  nav{
+    background: rgb(88, 88, 88);
+    height: 4vw;
+    text-align: center;
+    font-family: 'Domine', serif;
+    color:white;
+    font-size: 2vw;
+    padding:1vw;
+    z-index: 3;
+  }
+  nav ul{
+    list-style: none;
+    display:inline;
+    background:rgb(88, 88, 88);
+    padding: 1vw;
+    text-align: center;
+    }
+    nav ul li{
+    background: rgb(88, 88, 88);
+    display:inline;
+    padding: 1vw 1vw;
+    }
+    nav ul li:hover{
+        background: black;
+        display:inline;
+        padding: 1vw 1vw;
+        }
+    nav ul a{
+      text-decoration: none;
+      color:white;
+    }
+  .container{
+    display:flex;
+  }
+  
+  main{
+    background:rgb(238, 238, 238);
+    flex-grow: 4;
+    flex-basis: auto;
+    min-width: 200px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  aside{
+    background: rgb(238, 238, 238);
+    flex-grow: 5; 
+    flex-basis: auto;
+    min-width: 200px;
+    max-width: 500px;
+    font-family:'Padauk', sans-serif;
+    color:#222;
+  }
+  
+  h1{
+    text-transform: uppercase;
+    margin-bottom: 3vw;
+    margin-top: 6vw;
+    font-size:2.1vw;
+  }
+  h2{
+    font-size:1.9vw;
+    margin-bottom:2px;
+  }
+  h3{
+    font-style:italic;
+    font-size:1.5vw;
+    margin-top:0;
+  }
+  p{
+    font-size:1.4vw;
+    margin-top: 2vw;
+  }
+  aside ul li{
+    font-size:1.4vw;
+  }
+  main .picture{
+    position: relative;
+    height: 28vw;
+    width: 20vw;
+    background-image: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  main .picture p{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    font-family:'Domine', serif;
+    font-size: 2.2vw;
+     }
+    #anakin {
+      position: absolute;
+      top: 62%;
+      left: 20%;
+      font-family: 'Domine', serif;
+      font-size: 3.8vw;
+      line-height: 4vw;
+       }
+
+  .quote{
+    width: 20vw;
+
+  }
+
+  blockquote{
+    font-family: 'Domine', serif;
+    background: rgb(77, 77, 77);
+    color: white;
+    font-weight: 900;
+    padding:.5vw;
+    margin:0;
+    line-height: 3vw;
+  }
+  blockquote::before {
+    content: '”';
+    font-size:3.3vw;
+    line-height: 3vw;
+    font-family: 'Domine', serif;
+    position: relative;
+    left: 1px;
+    top:8px;
+    padding:0;
+    margin:0;
+  
+  }
+  blockquote p{
+    padding: 0 1vw 2vw 1.5vw;
+    font-size: 3vw;
+    margin:0;
+  }
+  span{
+    display: block;
+    padding:2vw;
+  }
